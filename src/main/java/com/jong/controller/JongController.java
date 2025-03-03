@@ -13,9 +13,10 @@ public class JongController {
     private JongService jongService;
 
     @GetMapping("/jong")
-    public void myGet(){
+    public String myGet(){
         jongService.jongServiceMethod();
         System.out.println("myGet");
+        return "test return value";
     }
 
 
