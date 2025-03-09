@@ -3,6 +3,7 @@ plugins {
     id 'org.springframework.boot' version '2.7.18'
     id 'io.spring.dependency-management' version '1.1.0'
     id 'org.unbroken-dome.test-sets' version '4.0.0'
+    id 'io.freefair.lombok' version '6.3.0'
 }
 
 
@@ -14,11 +15,13 @@ repositories {
 }
 
 ext {
-    set('springBootVersion', '2.6.6')
+    set('springBootVersion', '2.7.18')
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    //implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
