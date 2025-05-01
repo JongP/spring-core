@@ -7,7 +7,7 @@ plugins {
 }
 
 
-group 'org.jong'
+group 'com.jong'
 version '1.0-SNAPSHOT'
 
 repositories {
