@@ -5,8 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.jong.aop.dynamicProxy.AOPService;
-import com.jong.aop.dynamicProxy.JongAopService;
 
 @SpringBootApplication
 public class Application {
